@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Clone Gmail UI</string>
+
+    <string name="search_menu">Pesquisar</string>
+
+    <string-array name="emails">
+        <item>hallison.paz@prof.infnet.edu.br</item>
+        <item>hallison.dapaz@gmail.com</item>
+        <item>hallpaz@pythoncafe.com.br</item>
+        <item>hallpaaz@gmail.com</item>
+        <item>hallpaz@impa.br</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="sample_sender">Fulano de Tal</string>
+    <string name="sample_title">Título maneiro do meu email</string>
+    <string name="sample_brief">Conteúdo legal do meu email começa aqui</string>
+    <string name="sample_date">8 de jun</string>
+    <string name="sample_description">Avatar</string>
+
+    <string name="opening_drawer">Abrindo gaveta de navegação</string>
+    <string name="closing_drawer">Fechando gaveta de navegação</string>
+
+</resources>

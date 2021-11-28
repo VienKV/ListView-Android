@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/with_star"
+            android:icon="@drawable/ic_baseline_star_24px"
+            android:title="Com estrela"/>
+
+        <item android:id="@+id/importantt"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Importante"/>
+
+        <item android:id="@+id/sent"
+            android:icon="@drawable/ic_baseline_send_24px"
+            android:title="Enviados"/>
+        <item android:id="@+id/drafts"
+            android:icon="@drawable/ic_baseline_drafts_24px"
+            android:title="Rascunhos"/>
+
+        <item android:id="@+id/spam"
+            android:icon="@drawable/ic_baseline_report_24px"
+            android:title="Spam"/>
+
+        <item android:id="@+id/agenda"
+            android:icon="@drawable/ic_baseline_calendar_today_24px"
+            android:title="Agenda"/>
+
+        <item android:id="@+id/contacts"
+            android:title="Contatos"/>
+    </group>
+
+    <item android:title="Todos os Marcadores">
+        <menu>
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Enviados"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Caixa de Saída"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Rascunhos"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Todos os e-mails"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Spam"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Lixeira"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Moodle"
+                />
+        </menu>
+    </item>
+    <item android:title="Aplicações Google">
+        <menu>
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Agenda"/>
+            <item
+                android:icon="@drawable/ic_baseline_star_24px"
+                android:title="Contatos"
+                />
+        </menu>
+    </item>
+
+    <group>
+        <item
+            android:icon="@drawable/ic_baseline_star_24px"
+            android:title="Configurações"
+            />
+        <item
+            android:icon="@drawable/ic_baseline_star_24px"
+            android:title="Ajuda e feedback"
+            />
+    </group>
+
+
+</menu>
